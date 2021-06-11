@@ -5,6 +5,6 @@ const vibes = [
   "...and so is this puppy! 🐶"
 ];
 
-const vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
+var vibe = vibes[Math.floor(Math.random() * Math.floor(vibes.length))];
 
-document.querySelecter(".vibe").append(vibe);
+document.querySelector(".vibe").append(vibe);
